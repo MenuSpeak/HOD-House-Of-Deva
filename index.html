@@ -1228,7 +1228,7 @@
                 </a>
             </div>
 
-              <div style="background:#0a0a0a; padding:25px; border-radius:18px; text-align:center; color:white; max-width:360px; margin:30px auto; box-shadow:0 0 25px rgba(140,0,255,0.4);">
+             <div style="background:#0a0a0a; padding:25px; border-radius:18px; text-align:center; color:white; max-width:360px; margin:30px auto; box-shadow:0 0 25px rgba(140,0,255,0.4);">
 
     <!-- Title -->
     <h2 style="color:#b266ff; margin-bottom:8px; font-family:sans-serif;">
@@ -1239,8 +1239,8 @@
         Scan & Pay using UPI / PhonePe
     </p>
 
-    <!-- QR Image (Your Image) -->
-    <img src="paymentqr.jpeg" 
+    <!-- QR Image -->
+    <img src="payment-qr.jpg" 
          alt="Payment QR"
          style="width:240px; border-radius:12px; margin-bottom:15px; border:2px solid #222;">
 
@@ -1249,14 +1249,16 @@
         VAIBHAV TRADING COMPANY
     </p>
 
-    <!-- Pay Button -->
-    <a href="upi://pay?pa=yourupi@upi&pn=Vaibhav Trading Company&cu=INR"
+    <!-- Pay Now Button -->
+    <a href="upi://pay?pa=9284969878@ybl&pn=Vaibhav Trading Company&cu=INR"
        style="display:inline-block; margin-top:18px; padding:12px 28px;
               background:linear-gradient(45deg,#6a00ff,#b266ff);
               color:white; text-decoration:none; border-radius:30px;
               font-weight:bold; font-size:15px;
               box-shadow:0 0 15px rgba(178,102,255,0.7);
-              transition:0.3s;">
+              transition:0.3s;"
+       onmouseover="this.style.transform='scale(1.05)'"
+       onmouseout="this.style.transform='scale(1)'">
         Pay Now
     </a>
 
